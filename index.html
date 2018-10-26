@@ -5,8 +5,9 @@
 </head>
 <body>
 	<a-scene>
-		  <a-sky color="#DB82D1"></a-sky>
-  <a-box color="pink" position="0 2 -5" rotation="0 90 90" scale="2 2 2"></a-box>
+  <a-box color="pink" position="0 2 -5" rotation="0 90 90" scale="2 2 2"></a-box <a-animation attribute="position" to="0 2.2 -5" direction="alternate" dur="2000"
+      repeat="indefinite"></a-animation>
+       <a-sky color="#DB82D1"></a-sky>
    <a-sphere position="1 1 3"></a-sphere>
       <a-plane rotation="-90 0 0" width="30" height="30"></a-plane>
       <a-text value="Greetings Queen Scar!" color="#41093B"
